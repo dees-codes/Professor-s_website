@@ -1,0 +1,170 @@
+* {
+		margin: 0;
+		padding: 0;
+		}
+
+html {
+		font-size: 100%;
+		}
+
+body {
+		font: 62.5%/1.5 Helvetica, Arial, Verdana, sans-serif;
+		background-color: lightblue;
+    padding-bottom: 1em;
+		}
+
+p {
+		font: 1.1em/1.4 sans-serif, Arial, Helvetica ;
+		margin-bottom: 100em;
+		}
+
+#wrapper {
+		width: 750px;
+		margin: 0 auto;
+		}
+
+#profimage {
+		text-align: center;
+		border-color: blue;
+	}
+
+img {
+		border-radius: 50%;
+}
+
+#professor {
+		text-align: center;
+}
+
+#office {
+	margin-top: 20px;
+margin-right: 15px;
+margin-bottom: 20px;
+margin-left: 15px;
+border: 2px solid #00449e;
+ border-radius: 15px;
+padding: 5px;
+}
+
+#contact {
+margin-right: 15px;
+margin-bottom: 20px;
+margin-left: 15px;
+border: 2px solid #00449e;
+padding: 5px;
+border-radius: 15px;
+}
+
+#announce {
+margin-right: 15px;
+margin-bottom: 20px;
+margin-left: 15px;
+border: 2px solid #00449e;
+padding: 5px;
+border-radius: 15px;
+}
+
+#content {
+		font: 1.3em/1.4 Verdana, Arial, Helvetica, sans-serif;
+		padding: 15px 15px 15px;
+		border-radius: 25px;
+		border-right: 1px solid #898989;
+		border-bottom: 1px solid #898989;
+		border-left: 1px solid #898989;
+		background: #e66465;
+		}
+
+#navContainer {
+		font: 1.1em Trebuchet, Helvetica, sans-serif;
+		text-align: center;
+		padding: 20px 0 0;
+		border-radius: 25px;
+		transition: background-color 7s ease;
+		background-color: #00449e;
+		}
+
+#navigation ul {
+		border-radius: 25px;
+		padding: 0 0 5px;
+		}
+
+#navigation li {
+		display: inline;
+		}
+
+#navigation a:link, #navigation a:visited {
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #000000;
+		background: #ccccff;
+		border: 1px solid #898989;
+		padding: 5px 10px;
+		position: relative;
+		margin-right: 5px;
+		}
+
+
+#navigation a:visited {
+		background: #e66465
+		}
+
+#navigation a:hover {
+		border: 1.5px solid black;
+		text-decoration: underline;
+		background: #cccccc;
+		}
+
+img:hover {
+	  transform: scale(1.1);
+		border: 3px solid #00449e;
+}
+
+#homePage #homePageLink a:link, #homePage #homePageLink a:visited, #Class1Page #Class1PageLink a:link, #Class1Page #Class1PageLink a:visited, #Class2Page #Class2PageLink a:link, #Class2Page #Class2PageLink a:visited {
+		background: #e66465;
+		border-bottom-color: #e66465;
+		}
+
+#homePage {
+	background: linear-gradient(to left, #00449e, #e66465);
+}
+
+#Class1Page {
+	background-image: url("CS.jpg");
+}
+
+#Class2Page {
+	position:relative;
+	background: #000 url("vectorpark.jpg");
+	height: 100vh;
+	background-repeat: repeat-x;
+	background-size: cover;
+	background-position: 0 0;
+	overflow: hidden;
+	animation: animate 20s linear infinite;
+	/*content:url("car.png");*/
+}
+
+styledimg {
+	background-image: url(car.png);
+	position: absolute;
+	bottom: -60px;
+	left: 10px;
+}
+
+@keyframes animate
+{
+	from{
+		background-position: 0 0;
+ 	}
+	to {
+		background-position: -3000px 0;
+	}
+}
+
+li {
+    margin-left: 20px;
+   }
+
+#classinfo h1 {
+		font: 2.0em/1.7 sans-serif, Arial, Helvetica ;
+}
